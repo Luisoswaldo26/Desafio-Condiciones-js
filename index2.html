@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body class="sticker">
+    <p>Puedes llevar hasta 10 stickers en total</p>
+    <div class="images">
+        <div class="sticker">
+            <img src="assets/images/img.jpeg" width="200px" height="200px" alt="">
+            <input name="" id="m-1" class="input">
+        </div>
+        <div class="sticker">
+            <img src="assets/images/img2.jpg" width="200px" height="200px" alt="">
+            <input name="" id="m-2" class="input">
+        </div>
+        <div class="sticker">
+            <img src="assets/images/img3.jpeg" width="200px" height="200px" alt="">
+            <input name="" id="m-3" class="input">
+        </div>
+    </div>
+    <p id="result"></p>
+    <button onclick="
+        p1 = Number(document.querySelector('#m-1').value)
+        p2 = Number(document.querySelector('#m-2').value)
+        p3 = Number(document.querySelector('#m-3').value)
+        suma = p1 + p2 + p3
+        element = document.querySelector('#result')
+        if (suma <= 10){
+            element.innerHTML = 'llevas '  + suma  + ' elementos'
+        }
+        else {
+            element.innerHTML = 'llevas demasiados stickers'
+        }
+    ">Verificar</button>
+
+</body>
+</html>

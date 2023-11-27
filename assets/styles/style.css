@@ -1,0 +1,42 @@
+.img {
+    margin-top: 40px;
+    text-align: center;
+}
+.img img {
+    width: 300px;
+}
+
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.input{
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+.selectores {
+    text-align: center;
+}
+.rtd {
+    text-align: center;
+    padding: 20px;
+}
+.btn3 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
